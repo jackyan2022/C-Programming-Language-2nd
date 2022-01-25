@@ -2,6 +2,11 @@
 #include <stdio.h>
 #define MAXLINE 100
 
+int atoi (char s[]) {
+    double atof(char s[]);
+    return (int) atof(s);
+}
+
 double atof(char s[]) {
     double val, power;
     int i, sign;
